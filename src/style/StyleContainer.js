@@ -26,6 +26,9 @@ export const TitleContainer = styled.section`
   margin-top: 100px;
   width: 360px;
   font-size: 20px;
+  @media (max-width: 768px) {
+    padding: 0 30px;
+  }
   .day {
     text-align: end;
   }

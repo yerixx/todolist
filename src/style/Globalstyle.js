@@ -41,4 +41,7 @@ export const Wrapper = styled.main`
   height: 100vh;
   flex-direction: column;
   align-items: center;
+  @media (max-width: 768px) {
+    padding: 0 30px;
+  }
 `;
